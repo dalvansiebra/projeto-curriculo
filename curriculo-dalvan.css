@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Syne', sans-serif;
+}
+
+.root {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+}
+
+header > * {
+    padding-top: 10px;
+}
+
+.header-section > a {
+    color: black;
+    text-decoration: none;
+}
+
+#header-logo {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+}
+
+nav > a {
+    margin-left: 20px;
+}
+
+nav > a:hover {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url("./assets/background-image.jpg");
+    background-size: 100%;
+}
+
+.main-section {
+    margin: 100px 20px;
+}
+
+#main-section-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-section-txt > * {
+    margin-bottom: 20px;
+}
+
+#main-section-txt > button {
+    width: 100px;
+    background-color: rgb(16, 16, 127);
+    color: white;
+    border-radius: 10px;
+}
+
+.main-redes-sociais {
+    display: flex;
+
+}
+
+.rede-icone > a > img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#main-foto-perfil {
+    max-width: 400px;
+    border-radius: 50%;
+}
